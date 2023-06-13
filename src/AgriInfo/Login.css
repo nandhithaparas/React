@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Luminari;
+    
+    outline-color: #a5b4fc;
+  }
+  body{
+    background-image: url("https://infopages-prod-cdn.ecosia.org/assets/images/what/projects/tree-planting-9a3757334c.jpg");
+    /*background-image: url("https://images.pexels.com/photos/1764227/pexels-photo-1764227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");*/
+    background-size: cover;
+    position: fixed;
+    background-size: 100vw 100vh;
+  }
+  
+ 
+  #box{
+    width: 600px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 8px #0e101240;
+    text-align: center;
+    
+
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-items: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    background-color: #e2e8f0;
+    
+  }
+  #addbtn,#viewbtn{
+    margin-top: 5%;
+  }
+  #addbtn{
+    margin-right: 2%;
+  }
+  p {
+    font-size: 16px;
+    color: #0a0b0c;
+  }
+  h2{
+      color:#155c3c
+  }
+  
+  .form {
+    width: 480px;
+    padding: 32px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 8px #07070740;
+    text-align: center;
+    opacity: 70%;
+  }
+  
+  .header {
+    margin-bottom: 48px;
+  }
+  
+  .header h1 {
+    font-weight: bolder;
+    font-size: 28px;
+    color: #155c3c;
+  }
+  
+  .input {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .input input {
+    width: 100%;
+    border: none;
+    padding: 8px 40px;
+    border-radius: 4px;
+    background-color: #f3f4f6;
+    color: #0a0c0e;
+    font-size: 16px;
+  }
+  .input i {
+    top: 50%;
+    width: 36px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #111113;
+    font-size: 16px;
+  }
+  #actions{
+    width:80px;
+    color: #155c3c;
+    position : relative ;
+      font-size : 14px ; 
+      font-weight : bold ;
+      
+      transition : all .3s ease ;
+  }
+  .signup-btn {
+    width: 100%;
+    border: none;
+    padding: 8px 0;
+    margin: 24px 0;
+    border-radius: 4px;
+    background-color:#155c3c;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  h1{
+      color:#155c3c;
+  }
+  
